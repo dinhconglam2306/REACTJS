@@ -1,0 +1,10 @@
+import products from './../mocks/app'
+
+
+const initialState = products;
+export default function productsReducer (state = {}, action) => {
+  switch (action.type) {
+    default:
+      return state;
+  }
+};
